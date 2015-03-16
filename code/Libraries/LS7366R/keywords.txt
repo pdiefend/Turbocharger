@@ -1,0 +1,66 @@
+#######################################
+# Syntax Coloring Map For PID Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LS7366R	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readEncoder	KEYWORD2
+clearEncoder	KEYWORD2
+enableEncoder	KEYWORD2
+disableEncoder	KEYWORD2
+writeDTR	KEYWORD2
+readSTR	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# MR0 values ===========================================
+NON_QUAD	LITERAL1
+X1_QUAD	LITERAL1
+X2_QUAD	LITERAL1
+X4_QUAD	LITERAL1
+FREE_RUN	LITERAL1
+SINGLE_CYCLE	LITERAL1
+RANGE_LIMIT	LITERAL1
+MOD_N_CNT	LITERAL1
+DISABLE_IDX	LITERAL1
+LOAD_CNTR	LITERAL1
+RST_CNTR	LITERAL1
+LOAD_OTR	LITERAL1
+ASYN_IDX	LITERAL1
+SYN_IDX	LITERAL1
+CLK_DIV_1	LITERAL1
+CLK_DIV_2	LITERAL1
+
+
+# MR1 values ===========================================
+FOUR_BYTE	LITERAL1
+THREE_BYTE	LITERAL1
+TWO_BYTE	LITERAL1
+ONE_BYTE	LITERAL1
+ENABLE_COUNTING	LITERAL1
+DISABLE_COUNTING	LITERAL1
+FLAG_IDX	LITERAL1
+FLAG_CMP	LITERAL1
+FLAG_BW	LITERAL1
+FLAG_CY	LITERAL1
+
+
+# STR values ===========================================
+CY_MASK	LITERAL1
+BW_MASK	LITERAL1
+CMP_MASK	LITERAL1
+IDX_MASK	LITERAL1
+CEN_MASK	LITERAL1
+PLS_MASK	LITERAL1
+UD_MASK	LITERAL1
+S_MASK	LITERAL1
